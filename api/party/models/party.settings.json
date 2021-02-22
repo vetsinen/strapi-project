@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "parties",
+  "info": {
+    "name": "party"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "shortName": {
+      "type": "string"
+    },
+    "date": {
+      "type": "datetime"
+    }
+  }
+}
